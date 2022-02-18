@@ -1,0 +1,22 @@
+{
+    "name": "elegance/prepare",
+    "description": "Adiciona variaveis em string baseando-se no template definido",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "André Ricardo",
+            "email": "contatoadmx@gamil.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "app/"
+        },
+        "files": [
+            "./helper/function/prepare.php"
+        ]
+    },
+    "require": {
+        "elegance/php-extend": "^1.0"
+    }
+}
